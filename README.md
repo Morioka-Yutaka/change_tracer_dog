@@ -146,3 +146,20 @@ run;
   
 ---
 
+## `%dog_chatter()` macro <a name="dogchatter-macro-1"></a> ######
+
+Macro:    %dog_chatter
+  Purpose:  Hidden easter egg macro. 
+ 
+  Example:
+    %dog_chatter
+    %dog_chatter
+    %dog_chatter
+ 
+   ????????????
+
+<img width="120" height="114" alt="Image" src="https://github.com/user-attachments/assets/0f4786ee-010a-44ec-a8c3-b6c724ea033b" />  
+ 
+---
+
+
