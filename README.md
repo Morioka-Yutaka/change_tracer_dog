@@ -42,9 +42,9 @@ run;
 <img width="400" height="32" alt="Image" src="https://github.com/user-attachments/assets/09f98131-6ba0-407c-91c9-928280d1f876" />      
 
 ## `%dog_patrol()` macro <a name="dogpatrol-macro-2"></a> ######
-  Purpose:  Start patrol by enabling dataset generations.  
-            The police dog begins sniffing the target dataset and   
-            monitors its changes up to a specified generation limit.  
+  Purpose:  Start patrol by enabling dataset generations. The police dog begins sniffing the target dataset and monitors its changes up to a specified generation limit.  
+
+<img width="408" height="487" alt="Image" src="https://github.com/user-attachments/assets/af6303cd-45b6-49d8-b19b-51cc74c1f605" />
    
   Parameters:  
 ~~~text  
