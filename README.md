@@ -71,7 +71,7 @@ run;
     %dog_patrol(target=wk1)
 ~~~
 
-<img width="668" height="30" alt="Image" src="https://github.com/user-attachments/assets/f3e50028-86b1-458f-a6f6-7a4264cd672c" />  
+<img width="108" height="5" alt="Image" src="https://github.com/user-attachments/assets/f3e50028-86b1-458f-a6f6-7a4264cd672c" />  
 
 ~~~sas
 data wk1;
