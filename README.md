@@ -30,7 +30,7 @@ data wk1;
 run;
 ~~~
 
-<img width="353" height="411" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />  
+<img width="353" height="41" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />  
 
 ~~~sas
  %sniffer_compare(target=wk1, scent_age=-1);
@@ -42,9 +42,8 @@ run;
 
 
 
-  
-  
 <img width="378" height="198" alt="Image" src="https://github.com/user-attachments/assets/39d2550d-d39b-4748-bcc8-ab78bb780d95" />  
+
 
 
 ## `%dog_patrol()` macro <a name="dogpatrol-macro-2"></a> ######
