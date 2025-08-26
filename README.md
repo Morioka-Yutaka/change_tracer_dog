@@ -58,7 +58,7 @@ run;
     - A playful message is displayed confirming patrol start.
  
   Example:  
-  ~~~sas
+~~~sas
     data test;
     do X = 1 to 10;
       output;
@@ -69,5 +69,6 @@ run;
       if X > 5 then cat="A"; else cat="B";
     run;
     %dog_patrol(target=wk1)
-~~~sas
+~~~
+
 ---
