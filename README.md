@@ -42,21 +42,23 @@ run;
 <img width="400" height="32" alt="Image" src="https://github.com/user-attachments/assets/09f98131-6ba0-407c-91c9-928280d1f876" />      
 
 ## `%dog_patrol()` macro <a name="dogpatrol-macro-2"></a> ######
-  Purpose:  Start patrol by enabling dataset generations. 
-            The police dog begins sniffing the target dataset and 
-            monitors its changes up to a specified generation limit.
- 
-  Parameters:
+  Purpose:  Start patrol by enabling dataset generations.  
+            The police dog begins sniffing the target dataset and   
+            monitors its changes up to a specified generation limit.  
+   
+  Parameters:  
+~~~text  
     lib=         Library containing the dataset (default=WORK).
     target=      Target dataset to patrol (REQUIRED).
     sniff_limit= Maximum number of generations to keep (default=5).
- 
+ ~~~
   Behavior:
     - If target is missing, the dog barks angrily (ERROR message).
     - Otherwise, proc datasets is used to enable generation tracking.
     - A playful message is displayed confirming patrol start.
  
-  Example:
+  Example:  
+  ~~~sas
     data test;
     do X = 1 to 10;
       output;
@@ -67,6 +69,5 @@ run;
       if X > 5 then cat="A"; else cat="B";
     run;
     %dog_patrol(target=wk1)
-
-  
+~~~sas
 ---
