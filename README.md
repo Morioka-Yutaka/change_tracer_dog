@@ -71,4 +71,17 @@ run;
     %dog_patrol(target=wk1)
 ~~~
 
+<img width="668" height="30" alt="Image" src="https://github.com/user-attachments/assets/f3e50028-86b1-458f-a6f6-7a4264cd672c" />  
+
+~~~sas
+data wk1;
+  set test;
+  if X > 6 then cat = "A";
+  else cat="B";
+run;
+~~~
+
+<img width="353" height="411" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />  
+
+
 ---
