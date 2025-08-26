@@ -119,5 +119,28 @@ run;
 
 ---
  
+## `%patrol_end()` macro <a name="patrolend-macro-3"></a> ######
+  Purpose:  End patrol by resetting generation tracking. The police dog stops monitoring and returns to the kennel.
+ <img width="100" height="120" alt="Image" src="https://github.com/user-attachments/assets/9638a978-8e3b-4bd3-80e5-ad9e13bcce09" />
+ 
+  Parameters:  
+  ~~~text
+    lib=     Library containing the dataset (default=WORK).
+    target=  Target dataset to stop patrolling (REQUIRED).
+ ~~~
+  Behavior:  
+    - If target is missing, the dog growls (ERROR message).  
+    - Otherwise, proc datasets resets GENMAX=0 to disable generations.  
+    - Displays a message confirming the patrol has ended.  
+   
+  Example:  
+~~~sas
+    %patrol_end(target=wk1)
+~~~
 
+<img width="358" height="18" alt="Image" src="https://github.com/user-attachments/assets/434fbab1-1aca-4c3b-bf5a-e152b14f1a52" />  
+
+
+  
+---
 
