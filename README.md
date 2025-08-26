@@ -3,6 +3,7 @@ change_tracer_dog A SAS macro package that behaves like a police dog: tracing da
 
 <img width="360" height="360" alt="Image" src="https://github.com/user-attachments/assets/03cdeda9-1626-4fb3-9d53-bb4cce8b0255" />
 
+
 Example:
 ~~~sas
 data test;
@@ -18,7 +19,9 @@ data wk1;
 run;
 %dog_patrol(target=wk1)
 ~~~
-<img width="334" height="15" alt="Image" src="https://github.com/user-attachments/assets/f3e50028-86b1-458f-a6f6-7a4264cd672c" />
+
+<img width="334" height="15" alt="Image" src="https://github.com/user-attachments/assets/f3e50028-86b1-458f-a6f6-7a4264cd672c" />  
+
 ~~~sas
 data wk1;
   set test;
@@ -26,10 +29,13 @@ data wk1;
   else cat="B";
 run;
 ~~~
-<img width="353" height="411" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />
+
+<img width="353" height="411" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />  
+
 ~~~sas
  %sniffer_compare(target=wk1, scent_age=-1);
 ~~~
+
 <img width="378" height="198" alt="Image" src="https://github.com/user-attachments/assets/39d2550d-d39b-4748-bcc8-ab78bb780d95" />
 
 
