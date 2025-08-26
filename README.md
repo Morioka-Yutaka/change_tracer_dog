@@ -30,14 +30,14 @@ data wk1;
 run;
 ~~~
 
-<img width="353" height="41" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />  
+<img width="353" height="411" alt="Image" src="https://github.com/user-attachments/assets/5c802cdc-4243-401b-92e2-80a8aed795ca" />  
 
 ~~~sas
  %sniffer_compare(target=wk1, scent_age=-1);
 ~~~
 
   
-<img width="570" height="32" alt="Image" src="https://github.com/user-attachments/assets/09f98131-6ba0-407c-91c9-928280d1f876" />      
+<img width="500" height="32" alt="Image" src="https://github.com/user-attachments/assets/09f98131-6ba0-407c-91c9-928280d1f876" />      
 
 
 
