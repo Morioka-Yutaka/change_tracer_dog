@@ -85,3 +85,34 @@ run;
 
 
 ---
+
+## `%sniffer_compare()` macro <a name="sniffercompare-macro-4"></a> ######
+  Purpose:  Compare the current dataset with one of its generations. The police dog "sniffs" both versions to detect differences.  
+ <img width="115" height="111" alt="Image" src="https://github.com/user-attachments/assets/ac863df5-4540-44e0-b34f-4b2442d959e4" />  
+ 
+  Parameters:
+  ~~~text
+    lib=        Library containing the dataset (default=WORK).
+    target=     Target dataset to compare (REQUIRED).
+    scent_age=  Generation number to compare against (default=-1,
+                meaning the immediately previous generation).
+ ~~~
+  Behavior:  
+    - If target is missing, the dog growls angrily (ERROR message).  
+    - Uses PROC COMPARE to check differences between generations.  
+    - If &sysinfo=0 → Woof! Perfect match, no differences found.  
+    - Otherwise → Bark! Differences detected.  
+   
+  Example:  
+~~~sas
+    data wk1; 
+      set test;  
+      if X > 6 then cat="A"; else cat="B";  
+    run;  
+    %sniffer_compare(target=wk1, scent_age=-1)
+~~~
+  
+---
+ 
+
+
