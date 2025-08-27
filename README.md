@@ -164,6 +164,7 @@ Macro:    %dog_chatter
 
 ## Notes on versions history
 
+- 0.1.1(27August2025): BugFix. %dog_chatter--Garbled characters
 - 0.1.0(27August2025): Initial version.
 
 ---
