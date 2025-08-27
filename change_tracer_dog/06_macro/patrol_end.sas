@@ -29,6 +29,6 @@ Macro:    %patrol_end
     modify &target(genmax=0);
   quit;
 
-  %put NOTE: [Police Dog] Patrol finished for &target. Woof! Generation tracking stopped. í°¾;
+  %put NOTE: [Police Dog] Patrol finished for &target. Woof! Generation tracking stopped. ;
 
 %mend;

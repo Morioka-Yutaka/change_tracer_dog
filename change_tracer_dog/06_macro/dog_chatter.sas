@@ -34,7 +34,7 @@ Macro:    %dog_chatter
   %else %if &_dog_count = 11 %then %put NOTE: [Police Dog] Patrol route complete. Awaiting next task.;
   %else %if &_dog_count = 12 %then %put NOTE: [Police Dog] Scent mismatch detected. Data feels off.;
   %else %if &_dog_count = 13 %then %put NOTE: [Police Dog] Sitting... waiting... still sniffing.;
-  %else %if &_dog_count = 14 %then %put NOTE: [Police Dog] GRRR! Don’t forget my dataset target!;
+  %else %if &_dog_count = 14 %then %put NOTE: [Police Dog] GRRR! Do not forget my dataset target!;
   %else %if &_dog_count = 15 %then %put NOTE: [Police Dog] Friendly wag: All clear so far.;
   %else %if &_dog_count = 16 %then %put NOTE: [Police Dog] Alert mode activated. Comparing footprints.;
   %else %if &_dog_count = 17 %then %put NOTE: [Police Dog] Quiet sniff... nothing suspicious here.;
@@ -47,7 +47,7 @@ Macro:    %dog_chatter
   %else %if &_dog_count = 24 %then %put NOTE: [Police Dog] Relax human, no changes here.;
   %else %if &_dog_count = 25 %then %put NOTE: [Police Dog] Patrol complete. Give me a treat!;
   %else %if &_dog_count = 26 %then %put NOTE: [Police Dog] Happy woof: data integrity is safe.;
-  %else %if &_dog_count = 27 %then %put NOTE: [Police Dog] Head tilt... something doesn’t add up.;
+  %else %if &_dog_count = 27 %then %put NOTE: [Police Dog] Head tilt... something does not add up.;
   %else %if &_dog_count = 28 %then %put NOTE: [Police Dog] The scent is fading... older generation.;
   %else %if &_dog_count = 29 %then %put NOTE: [Police Dog] GRRR! Missing parameter, bad human!;
   %else %if &_dog_count = 30 %then %put NOTE: [Police Dog] Patrol checkpoint reached. Still clear.;
