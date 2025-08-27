@@ -9,17 +9,17 @@
 ### Version information:
   
 - Package: change_tracer_dog
-- Version: 0.1.0
-- Generated: 2025-08-26T23:20:26
+- Version: 0.1.1
+- Generated: 2025-08-27T16:14:29
 - Author(s): Yutaka Morioka(sasyupi@gmail.com)
 - Maintainer(s): Yutaka Morioka(sasyupi@gmail.com)
 - License: MIT
-- File SHA256: `F*E24EE756815BD40946AF8C6B865064F9D3B2E3BFF09055E555C3E485DE83A4A7` for this version
-- Content SHA256: `C*E2C96E76D98D6C798333CC619645097ED957CEE707B6920FC51450DAB95F58A0` for this version
+- File SHA256: `F*78DB5B1F1428173E8D485BF846C832B3372A8E15512CCC09466C600EEDA6D54F` for this version
+- Content SHA256: `C*85D07F9019EBE1962C912CB1F8F60F2A0791DBDD96B454B387559FF6C680F333` for this version
   
 ---
  
-# The `change_tracer_dog` package, version: `0.1.0`;
+# The `change_tracer_dog` package, version: `0.1.1`;
   
 ---
  

@@ -1,7 +1,7 @@
 Type : Package
 Package : change_tracer_dog
 Title : change_tracer_dog
-Version : 0.1.0
+Version : 0.1.1
 Author : Yutaka Morioka(sasyupi@gmail.com)
 Maintainer : Yutaka Morioka(sasyupi@gmail.com)
 License : MIT
